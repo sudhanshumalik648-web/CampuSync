@@ -1,0 +1,17 @@
+{
+  "name": "campussync-realtime-sidecar",
+  "version": "1.0.0",
+  "description": "Lightweight Node.js and Socket.io sidecar server for real-time WebSocket broadcasts across CampusSync faculty boards.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "author": "CampusSync Team",
+  "license": "MIT"
+}
